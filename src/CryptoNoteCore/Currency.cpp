@@ -96,7 +96,7 @@ bool Currency::generateGenesisBlock() {
   return true;
 }
 
-uint64_t Currency::baseRewardFunction(uint32_t height) const {
+uint64_t baseRewardFunction(uint32_t height) const {
   uint64_t base_reward = 0;
   if(height == 1)
     {
